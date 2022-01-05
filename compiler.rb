@@ -15,7 +15,7 @@ data.each { |line|
     line.gsub!("("," ")
     line.gsub!(")"," ")
     # pretty basic I know.....
-    
+    token = data.read.split("")
 }
 
 data.delete("")
